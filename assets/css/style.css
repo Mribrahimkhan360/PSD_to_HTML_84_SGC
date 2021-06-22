@@ -1,0 +1,151 @@
+body{
+	background: linear-gradient(to bottom, #FFFFFF ,#558C89 );
+
+}
+
+.bg{
+	background-color: #fff;
+}
+/*=============navigation==============*/
+
+img{
+	width: 100%;
+}
+
+.navigation{
+	background-color: #22264b;
+}
+nav {
+	display: block;
+	display: flex;
+	align-items: center;
+	background: #22264b;
+	justify-content: center;
+}
+
+nav .nav-list li{
+	list-style-type: none;
+
+	display: inline-block;
+	float: left;
+}
+
+nav .nav-list li a{
+	border-right: 1px solid rgba(255,255,255, 0.1);
+	border-left: 1px solid rgba(0,0,0,1);
+	text-decoration: none;
+
+}
+nav .nav-list li a:hover
+{
+	background-color: #000033;
+	transition: .3s;
+}
+.collapse img{
+	z-index: 1111;
+}
+@media (max-width: 720px){
+	nav .nav-list li{
+		
+	}
+}
+
+
+/*==========left list==========*/
+.left-list{
+	margin-right: 2rem;
+}
+.left-list .list-item-left{
+	align-items: center;
+}
+.left-list .list-item-left li{
+	display: block;
+	align-items: center;
+}
+.left-list .list-item-left li a{
+	text-decoration: none;
+	border-top: 1px solid rgba(255,255,255, 0.1);
+	border-bottom: 1px solid rgba(0,0,0,1);
+	padding: 5px 20px;
+	display: block;
+	align-items: center;
+	text-align: center;
+	background: #ddd;
+	color: #000;
+}
+.left-list .list-item-left li a:hover{
+	background-color: #59841A;
+	color: white;
+	transition: .1s;
+}
+
+.widget_corner{
+
+}
+
+.title_modual{
+	background-color: #F1F1E0;
+	box-shadow: 0px 3px 3px #888888;
+	padding: 10px 5px;
+	font-size: 18px;
+	margin-top: 10px;
+	text-align: center;
+}
+#latestnews ul li{
+	list-style-type: none;
+}
+#latestnews ul li a{
+	text-decoration: none;
+	color: #59841A;
+}
+/*=============owl-theme=============*/
+.owl-theme .item img{
+	height: 200px;
+	box-shadow: 0px 3px 3px #888888;
+}
+
+
+/*================card design================*/
+.fa{
+	font-size: 10px;
+}
+.teacher{
+	width: 260px;
+	background-color: #F1F1E0;
+	float: left;
+	margin: 5px;
+}
+.teacher .card{
+	box-shadow: 0px 3px 3px #888888;
+	padding: 10px;
+	background-color: #F1F1E0;
+}
+.left-corner img{
+	width: 70px;
+	height: 70px;
+}
+.left-corner{
+	display: flex;
+}
+.left-corner ul li{
+	list-style-type: none;
+}
+.left-corner ul li a{
+	text-decoration: none;
+	color: black;
+}
+.center{
+	text-align: center;
+}
+#left-list li{
+	list-style-type: none;
+}
+#left-list li a{
+	text-decoration: none;
+	color: #59841A;
+}
+.copyright{
+	padding: 10px 20px;
+	color: white;
+	text-align: center;
+}
